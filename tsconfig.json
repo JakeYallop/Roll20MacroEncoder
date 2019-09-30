@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "sourceMap": false,
+        "strict": true,
+        "outDir": "./dist",
+        "disableSizeLimit": true,
+        "downlevelIteration": true,
+        "incremental": true,
+        "plugins": [
+            {
+                "name": "typescript-tslint-plugin"
+            }
+        ]
+    },
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ],
+    "include": [
+        "./src/*",
+        "./src/**/*"
+    ]
+}

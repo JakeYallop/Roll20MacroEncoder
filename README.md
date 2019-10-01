@@ -1,5 +1,8 @@
 # Roll20 Macro Encoder
-A tool written in Typescript to automatically encode HTML entities in Roll20 macros. Allows for more easily nesting drop downs within macros. For example:
+A tool written in Typescript to automatically encode HTML entities in Roll20 macros. Allows for more easily nesting drop downs within macros.
+
+## Usage
+
 ```JavaScript
 var macro = 
 `?{Level: 
